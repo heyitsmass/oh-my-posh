@@ -64,7 +64,7 @@
           "type": "python",
           "style": "powerline",
           "powerline_symbol": "\udb85\udc0b",
-          "alignment": "left",
+          "alignment": "right",
           "foreground": "#100e23",
           "background": "#906cff",
           "template": "\ue73c {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }}"
