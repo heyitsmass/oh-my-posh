@@ -1,10 +1,6 @@
 # Dracula for [Oh My Posh](https://ohmyposh.dev/)
 
-> A customized version of the dark dracula theme for [Oh My Posh](https://ohmyposh.dev/).
-
-## Credit 
-
-[Dracula](https://draculatheme.com/). 
+## [Dracula](https://draculatheme.com/)
 
 
 ### Disclosure
