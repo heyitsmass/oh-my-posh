@@ -64,6 +64,7 @@
           "foreground": "#ffffff",
           "background": "#906cff",
           "leading_diamond": "\ueb6f"
+          "trailing_diamond": "\ue0b4",
           "properties": {
             "alignment": "right",
             "template": " \ue73c {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }}"
