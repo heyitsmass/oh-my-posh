@@ -69,6 +69,7 @@
             "alignment": "right",
             "template": " \ue73c {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }}"
           },
+          "style": "diamond",
           "type": "python",
         }
       ],
