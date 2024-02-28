@@ -61,13 +61,14 @@
           "type": "time"
         },
         {
-          "type": "python",
-          "style": "powerline",
-          "powerline_symbol": "\udb85\udc0b",
-          "alignment": "right",
-          "foreground": "#100e23",
+          "foreground": "#ffffff",
           "background": "#906cff",
-          "template": "\ue73c {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }}"
+          "leading_diamond": "\ueb6f"
+          "properties": {
+            "alignment": "right",
+            "template": " \ue73c {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }}"
+          },
+          "type": "python",
         }
       ],
       "type": "prompt"
