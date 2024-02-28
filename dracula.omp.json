@@ -74,7 +74,8 @@
           "background": "#906cff",
           "template": "\ue73c {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }}"
         }
-      ]
+      ],
+      "type": "prompt"
     }
   ],
   "final_space": true,
